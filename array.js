@@ -1,11 +1,3 @@
-function factorial (x) {
-	if (x === 0) {
-		return 1
-	}else {
-		return x*factorial(x-1)
-	} 
-}
-
 for (var i = 1 ; i < 101; i++) {
 	if (i % 3 === 0 && i % 5 === 0) {
 		console.log("FizzBuzz")
